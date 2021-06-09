@@ -1,0 +1,114 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <div class="header-fields">
+            <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+        </div>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <div>
+                    <label>
+                        {{localize "ikrpg.skillSheetLabels.type"}}
+                    </label>
+                    <input
+                        name="data.Type.value"
+                        type="text"
+                        value="{{data.Type.value}}"
+                        data-type="Text"
+                    />
+                </div>
+            </tr>
+
+            <tr>
+                <div>
+                    <label>
+                        Atribute
+                    </label>
+                    <input
+                        name="data.Atribute.value"
+                        type="text"
+                        value="{{data.Atribute.value}}"
+                        data-type="Text"
+                    />
+                </div>
+            </tr>
+
+            <tr>
+                <div>
+                    <label>
+                        Can be used untrained
+                    </label>
+                    <input
+                        name="data.CanBeUsedUntrained"
+                        type="checkbox"
+                        {{checked data.CanBeUsedUntrained}}
+                        data-type="checkbox"
+                    >
+                    </input>
+                </div>
+            </tr>
+
+            <tr>
+                <div>
+                    <label>
+                        Untrained
+                    </label>
+                    <textarea
+                        name="data.Untrained.value"
+                        type="text"
+                        value="{{data.Untrained.value}}"
+                        data-type="Text"
+                    >
+                </textarea>
+                </div>
+            </tr>
+
+            <tr>
+                <div>
+                    <label>
+                        Description
+                    </label>
+                    <textarea
+                        name="data.Description.value"
+                        type="text"
+                        value="{{data.Description.value}}"
+                        data-type="Text"
+                    >
+                    </textarea>
+                </div>
+            </tr>
+
+            <tr>
+                <div>
+                    <label>
+                        Assist
+                    </label>
+                    <textarea
+                        name="data.Assist.value"
+                        type="text"
+                        value="{{data.Assist.value}}"
+                        data-type="Text"
+                    >
+                    </textarea>
+                </div>
+            </tr>
+
+            <tr>
+                <div>
+                    <label>
+                        GmAnnotations
+                    </label>
+                    <textarea
+                        name="data.GmAnnotations.value"
+                        type="text"
+                        value="{{data.GmAnnotations.value}}"
+                        data-type="Text"
+                    />
+                    </textarea>
+                </div>
+            </tr>
+        </table>
+    </div>
+</form>

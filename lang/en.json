@@ -1,0 +1,49 @@
+{
+    "ikrpg":
+    {
+        "actorSheetLabels":
+        {
+            "statBlock":
+                {
+                    "phy":"PHY",
+                    "spd":"SPD",
+                    "str":"STR",
+                    "max":"MAX",
+                    "agl":"AGL",
+                    "prw":"PRW",
+                    "poi":"POI",
+                    "int":"INT",
+                    "arc":"ARC",
+                    "per":"PER",
+                    "title":"STATS"
+                },
+            "headerBlock":
+                {
+                    "name":"CHARACTER NAME",
+                    "sex":"SEX",
+                    "definingCharacterists":"DEFINING CHARACTERISC(S)",
+                    "weight":"WEIGHT",
+                    "archetype":"ARCHETYPE",
+                    "race":"RACE",
+                    "careers":"CAREERS",
+                    "faith":"FAITH",
+                    "height":"HEIGHT",
+                    "title":"IRON KINGDOMS CHARACTER SHEET"
+                },
+            "skillBlock":
+                {
+                    "title":"SKILL",
+                    "skill":"Skill",
+                    "atribute":"Atribute",
+                    "atributeValue":"Atribute Value",
+                    "skillLevel":"Skill Level",
+                    "total":"Total"
+                }
+        },
+        "skillSheetLabels":
+        {
+            "type":"Type",
+            "atribute":"Atribute"
+        }
+    }
+}

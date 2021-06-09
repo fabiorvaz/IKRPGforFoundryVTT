@@ -1,0 +1,22 @@
+{
+  "name": "ikrpg",
+  "title": "Ikrpg",
+  "description": "The adaptation of IKRPG for Foundry VTT made by a fan!",
+  "version": "1.1.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.6",
+  "author": "Asacolips",
+  "esmodules": ["ikrpg.js"],
+  "styles": ["css/ikrpg.css"],
+  "packs": [],
+  "languages": 
+  [
+    {
+      "lang":"en",
+      "name":"English",
+      "path":"lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "'"
+}

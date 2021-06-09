@@ -1,0 +1,87 @@
+{
+  "Actor":{
+    "types":
+    [
+      "Character"
+    ],
+    "templates":
+    {
+      "commonStats":
+      {
+        "phy":{"stat":"", "max":""},
+        "spd":{"stat":"", "max":""},
+        "str":{"stat":"", "max":""},
+        "agl":{"stat":"", "max":""},
+        "prw":{"stat":"", "max":""},
+        "poi":{"stat":"", "max":""},
+        "int":{"stat":"", "max":""},
+        "arc":{"stat":"", "max":""},
+        "per":{"stat":"", "max":""}
+      }
+    },
+    "Character":
+    {
+      "templates":["commonStats"],
+      "name":"",
+      "sex":"",
+      "definingCharacterists":"",
+      "weight":"",
+      "archetype":"",
+      "race":"",
+      "careers":"",
+      "faith":"",
+      "height":"",
+      "featPoints":{"max":3,"value":0}
+    }
+  },
+
+  "Item":{
+    "types":
+    [
+      "MeeleeWeapon",
+      "RangedWeapon",
+      "Skill"
+    ],
+    "templates":{
+      "itemBase":
+      {
+        "Name":"",
+        "Description":"",
+        "Cost":""
+      }
+    },
+    "MeeleeWeapon":
+    {
+      "templates":["itemBase"],
+      "Skill":"",
+      "AttackModifier":"",
+      "SpecialRules":"",
+      "POW":""
+    },
+    "RangedWeapon":
+    {
+      "templates":["itemBase"],
+      "Skill":"",
+      "AttackModifier":"",
+      "SpecialRules":"",
+      "Ammo":"",
+      "EffectiveRange":"",
+      "ExtremeRange":"",
+      "AOE":"",
+      "POW":""
+    },
+    "Skill":
+    {
+      "Type":"",
+      "Atribute":"",
+      "Untrained":"",
+      "CanBeUsedUntrained":"",
+      "Description":"",
+      "Assist":"",
+      "GmAnnotations":"",
+      "SkillLevel":"",
+      "StatValue":"",
+      "Total":""
+    }
+  }
+}

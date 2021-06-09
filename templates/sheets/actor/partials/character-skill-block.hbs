@@ -1,0 +1,47 @@
+<section>
+    <table>
+        <caption>
+            SKILLS
+        </caption>
+        <th>
+            <td>
+                Skill
+            </td>
+            <td>
+                Atribute
+            </td>
+            <td>
+                Atribute Value
+            </td>
+            <td>
+                Skill Level
+            </td>
+            <td>
+                Total
+            </td>
+        </th>
+        {{#each data as |skill|}}
+            <tr>
+                <td>
+                    <label>
+                        {{skill.data.name.value}}
+                    </label>
+                </td>
+                <td>
+                    {{skill.data.Atribute.value}}
+                </td>
+                <td>
+                    {{skill.data.StatValue.value}}
+                </td>
+                <td>
+                    {{skill.data.SkillLevel.value}}
+                </td>
+                <td>
+                    {{skill.data.Total.value}}
+                </td>
+            </tr>
+        {{else}}
+        <tr><td>sem skills</td></tr>
+        {{/each}}
+    </table>
+</section>
